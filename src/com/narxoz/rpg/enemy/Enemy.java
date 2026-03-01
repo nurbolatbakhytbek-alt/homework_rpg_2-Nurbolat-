@@ -21,4 +21,6 @@ public interface Enemy {
     void multiplyStats(double multiplier);
     void setElement(String element);
     Enemy clone();
+    void setName(String string);
+    void setAbilities(List<Ability> abilities);
 }

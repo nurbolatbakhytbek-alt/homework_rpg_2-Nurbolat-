@@ -3,6 +3,7 @@ package com.narxoz.rpg.enemy;
 import com.narxoz.rpg.combat.Ability;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class DragonBoss extends AbstractEnemy {
@@ -83,5 +84,17 @@ public class DragonBoss extends AbstractEnemy {
             clone.lootTable = this.lootTable.clone();
         }
         return clone;
+    }
+
+    @Override
+    public void setName(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setName'");
+    }
+
+    @Override
+    public void setAbilities(List<Ability> abilities) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setAbilities'");
     }
 }

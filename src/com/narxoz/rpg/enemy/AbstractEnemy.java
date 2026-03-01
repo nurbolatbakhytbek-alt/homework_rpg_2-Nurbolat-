@@ -7,14 +7,14 @@ import java.util.List;
 
 public abstract class AbstractEnemy implements Enemy {
     protected String name;
-    protected int health;
-    protected int damage;
-    protected int defense;
-    protected int speed;
-    protected String element;
-    protected List<Ability> abilities;
-    protected LootTable lootTable;
-    protected String aiBehavior;
+    public int health;
+    public int damage;
+    public int defense;
+    public int speed;
+    public String element;
+    public List<Ability> abilities;
+    public LootTable lootTable;
+    public String aiBehavior;
     
     public AbstractEnemy(String name) {
         this.name = name;

@@ -2,6 +2,7 @@ package com.narxoz.rpg.enemy;
 
 import com.narxoz.rpg.combat.Ability;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Goblin extends AbstractEnemy {
     
@@ -47,5 +48,17 @@ public class Goblin extends AbstractEnemy {
             clone.lootTable = this.lootTable.clone();
         }
         return clone;
+    }
+
+    @Override
+    public void setName(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setName'");
+    }
+
+    @Override
+    public void setAbilities(List<Ability> abilities) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setAbilities'");
     }
 }

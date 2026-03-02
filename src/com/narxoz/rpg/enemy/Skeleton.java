@@ -32,7 +32,7 @@ public class Skeleton extends AbstractEnemy {
     }
     
     @Override
-    public Enemy clone() {
+    public AbstractEnemy clone() {
         Skeleton clone = new Skeleton(this.name);
         clone.health = this.health;
         clone.damage = this.damage;
@@ -52,13 +52,13 @@ public class Skeleton extends AbstractEnemy {
 
     @Override
     public void setName(String string) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'setName'");
     }
 
     @Override
     public void setAbilities(List<Ability> abilities) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'setAbilities'");
     }
 }

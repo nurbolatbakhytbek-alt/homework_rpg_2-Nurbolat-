@@ -64,7 +64,7 @@ public class DragonBoss extends AbstractEnemy {
     }
     
     @Override
-    public Enemy clone() {
+    public AbstractEnemy clone() {
         DragonBoss clone = new DragonBoss(this.name);
         clone.health = this.health;
         clone.damage = this.damage;
